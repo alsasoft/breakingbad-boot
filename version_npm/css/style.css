@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.navbar-dark {
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--yellow);
+}
+
+.navbar-dark .navbar-brand {
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    padding: 10px;
+}
+
+.hero {
+    background-image: url('../assets/images/BB-S5-Key-Art-3200-v2.jpg');
+    background-size: cover;
+    height: 70vh;
+    background-position: center center;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: .25rem;
+}
+
+.footer {
+    border-top: 1px solid var(--yellow);
+}

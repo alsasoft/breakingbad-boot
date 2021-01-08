@@ -1,0 +1,25 @@
+{
+    "name": "workshop-neoland-",
+    "version": "1.0.0",
+    "description": "Breaking Bad web app",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel index.html",
+        "test": "./node_modules/.bin/mocha test/**/*.js --require babel-core/register --reporter spec"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-preset-es2015": "^6.24.1",
+        "chai": "^4.2.0",
+        "mocha": "^8.2.1",
+        "parcel-bundler": "^1.12.4"
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.3",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1"
+    }
+}

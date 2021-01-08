@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad Site</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">Br<sup>35</sup> Ba<sup>56</sup></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="form-inline my-2 my-lg-0 ml-auto">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Introduce personaje"
+                            aria-label="Search" id="nombre">
+                        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit"
+                            id="btnBuscar">Buscar</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <div class="hero">
+
+        </div>
+        <main>
+            <div class="container mt-3">
+                <h1 class="text-light">Personajes</h1>
+                <hr class="bg-light">
+                <div class="row" id="characters"></div>
+            </div>
+        </main>
+
+        <footer class="bg-dark footer py-3 mt-5 text-light">
+            <div class="container">
+                Workshop Neoland 2020
+            </div>
+        </footer>
+
+    </div>
+    <script src="./src/index.js" defer></script>
+</body>
+
+</html>
