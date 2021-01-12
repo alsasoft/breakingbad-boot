@@ -1,4 +1,6 @@
-1) Clonar el repo https://github.com/alsasoft/breakingbad-boot.git y trabajar dentro de la carpeta `version_npm_ericka`.
+1) Clonar el repo https://github.com/alsasoft/breakingbad-boot.git.
+  * Crear una carpeta llamada `version_npm_ericka` y trabajar dentro de ella.
+  * Copiar la carpeta `assets` contenida dentro de la carpeta `version_profesor` dentro de `version_npm_ericka`.
   * Crear un fichero `.gitignore` con el contenido:
 ```
 dist
@@ -32,8 +34,7 @@ node_modules
   * Los comandos serían:
     * `npm install chai mocha babel-cli babel-core babel-preset-es2015 parcel-bundler --save-dev`
     * `npm install jquery popper.js bootstrap`
-
-Con esto vemos que se ha modificado el fichero `package.json` añadiendo dichas dependencias (y determinando las versiones automáticamente) y que se ha creado el fichero `package-lock.json`.
+  * Con esto vemos que se ha modificado el fichero `package.json` añadiendo dichas dependencias (y determinando las versiones automáticamente) y que se ha creado el fichero `package-lock.json`.
 
 
 5) Creamos los siguientes ficheros (podemos seguir el vídeo desde el minuto 26:40)
@@ -41,6 +42,7 @@ Con esto vemos que se ha modificado el fichero `package.json` añadiendo dichas 
 ```css
 body {
     background-color: cyan !important;
+    /* Esta regla será borrada más tarde */
 }
 ```
   * `js/main.js`: Con `npm` es aquí donde debemos importar Bootstrap:
@@ -48,7 +50,7 @@ body {
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
-console.log('Working!!!');
+console.log('Working!!!'); // Esta línea también será borrada más tarde
 ```
   * `index.html`: Con una estructura normal HTML. Omitimos las importaciones de Bootstrap tal como muestra el vídeo ya que se hacen de otra manera con `npm`.  
   
@@ -78,6 +80,7 @@ describe("Empty test: ", () => {
     it("Test are Working", () => {
         assert.equal("Test are Working", "Test are Working");
     });
+    // Este test también será borrado posteriormente
 });
 ```
 
